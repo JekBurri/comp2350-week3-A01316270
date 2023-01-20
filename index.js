@@ -44,7 +44,6 @@ http.createServer(function(req, res) {
 			res.end(`<!doctype html><html><head></head><body>
 			<div>Running on Qoddi</div>
 			<div>Connected to the database, check the Qoddi logs for the results.</div>
-			<div>running on server</div>
 			</body></html>`);
 		}
 		else {
@@ -52,7 +51,7 @@ http.createServer(function(req, res) {
 			res.end(`<!doctype html><html><head></head><body>
 			<div>Running on localhost</div>
 			<div>Connected to the database, check the Qoddi logs for the results.</div>
-			<div>running on localhost</div>
+			<div>Running on localhost</div>
 			</body></html>`);
 		}
 	}
